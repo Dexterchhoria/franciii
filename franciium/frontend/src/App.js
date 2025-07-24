@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import './App.css';
 import axios from 'axios';
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://franciiiumo.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 // Auth Context
